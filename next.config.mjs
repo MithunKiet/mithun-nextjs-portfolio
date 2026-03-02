@@ -1,16 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    basePath: "/mithun-nextjs-portfolio",
+    output: 'export',
     images: {
-        unoptimized: true,
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'avatars.githubusercontent.com',
-            }
-        ]
-    }
+        unoptimized: true
+    },
+    basePath: '/mithun-nextjs-portfolio',
+    assetPrefix: '/mithun-nextjs-portfolio/',
 };
 
 export default nextConfig;
