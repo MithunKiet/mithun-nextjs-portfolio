@@ -5,12 +5,44 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
     {
-        role: "Full Stack Software Developer",
+        role: "Manager",
         company: "Haier Appliances India Pvt Ltd",
-        location: "Greater Noida, India",
-        date: "Present",
-        description: "Developing and maintaining scalable enterprise applications using ASP.NET Core, Angular, and SQL Server. Responsible for REST API development, database optimization, and implementing complex business logic. Engaging in rigorous code reviews and debugging to ensure high software quality and robust architecture.",
-        tech: ["ASP.NET Core", "C#", "Angular", "SQL Server", "REST API"]
+        location: "Noida, Uttar Pradesh, India",
+        date: "April 2024 – Present",
+        description: "Lead technology-driven digital transformation projects within manufacturing. Developed an enterprise-grade 'Smart Documentation Application' to digitize over 40 QA and production checklists, reducing paper consumption by thousands of sheets monthly. Manage cross-functional teams and multi-tier approval workflows (Engineer → Reviewer → Approver).",
+        tech: ["ASP.NET Core", "C#", "Angular", "SQL Server", "REST API", "Digital Transformation"]
+    },
+    {
+        role: "Senior Programmer",
+        company: "Path Infotech Ltd.",
+        location: "Noida, Uttar Pradesh, India",
+        date: "March 2023 – April 2024",
+        description: "Developed scalable applications using C#, ASP.NET, and Angular. Participated in code reviews and debugging to improve software quality and reliability. Collaborated on engineering best practices and knowledge sharing across teams.",
+        tech: ["C#", "ASP.NET", "Angular", "Code Review", "Debugging"]
+    },
+    {
+        role: "Senior Software Engineer",
+        company: "Chetu, Inc.",
+        location: "Noida, Uttar Pradesh, India",
+        date: "May 2021 – March 2023",
+        description: "Developed software solutions using .NET technologies. Created technical specifications and user interfaces for mobile and web platforms. Focused on application performance optimization and modular architecture.",
+        tech: [".NET", "C#", "Web API", "Mobile", "Performance Optimization"]
+    },
+    {
+        role: "Software Engineer",
+        company: "Enablesoft Solutions Pvt. Ltd.",
+        location: "Gurugram, Haryana, India",
+        date: "May 2018 – May 2021",
+        description: "Specialized in .NET Framework development, writing clean and scalable code for various clients. Designed technical interfaces and architectural specifications. Repurposed web applications for mobile platforms and tested software prototypes.",
+        tech: [".NET Framework", "C#", "HTML5", "CSS3", "Mobile Adaptation"]
+    },
+    {
+        role: "Internship Trainee",
+        company: "Apex TG India Pvt Ltd",
+        location: "Noida, Uttar Pradesh, India",
+        date: "January 2016 – June 2016",
+        description: "Web Development Trainee focused on .NET Framework, HTML, and CSS. Gained foundational experience in building web applications and developing software solutions in a professional environment.",
+        tech: [".NET Framework", "HTML", "CSS", "Web Development"]
     }
 ];
 
